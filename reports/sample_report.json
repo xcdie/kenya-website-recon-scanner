@@ -1,0 +1,54 @@
+{
+  "finished_at_utc": "2026-11-03T00:00:05+00:00",
+  "limitations": "Illustrative sample only. No network collection was performed; the reserved .example domain is not a real target.",
+  "report_type": "authorised_low_impact_metadata_collection",
+  "results": [
+    {
+      "collected_at_utc": "2026-11-03T00:00:00+00:00",
+      "collection_limits": {
+        "dns": "A, AAAA, MX and NS only",
+        "http": "one HTTPS HEAD /; no redirects; no response body",
+        "rdap": "one public RDAP lookup; minimal fields retained",
+        "tls": "one standard certificate-validated handshake"
+      },
+      "domain": "demo.authorized.example",
+      "https_tls": {
+        "http_head": {
+          "bytes_read": 0,
+          "headers": {},
+          "redirects_followed": 0,
+          "response_body_downloaded": false,
+          "security_header_presence": {
+            "Content-Security-Policy": "not_observed",
+            "Cross-Origin-Opener-Policy": "not_observed",
+            "Cross-Origin-Resource-Policy": "not_observed",
+            "HSTS": "not_observed",
+            "Permissions-Policy": "not_observed",
+            "Referrer-Policy": "not_observed",
+            "X-Content-Type-Options": "not_observed",
+            "X-Frame-Options": "not_observed"
+          },
+          "status": null
+        },
+        "note": "Illustrative empty result; do not interpret as a real network observation."
+      },
+      "rdap": {
+        "attempted": false,
+        "note": "Illustrative only; no RDAP request was made."
+      },
+      "resolved_public_addresses": [],
+      "dns": {
+        "attempted_record_types": ["A", "AAAA", "MX", "NS"],
+        "records": {},
+        "note": "Illustrative only; no DNS query was made."
+      }
+    }
+  ],
+  "scope": {
+    "authorisation_acknowledgement": true,
+    "controls": ["CSV approval", "allowlist", "STOP file", "public-address check"],
+    "minimum_delay_seconds": 5,
+    "target_count": 1
+  },
+  "started_at_utc": "2026-11-03T00:00:00+00:00"
+}

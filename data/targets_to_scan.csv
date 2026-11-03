@@ -1,0 +1,2 @@
+target_id,domain,scan_authorized,permission_reference,purpose,notes
+TEMPLATE-001,,no,,"Replace only after written permission and separate allowlist entry.","Threat-feed leads are intentionally not targets."

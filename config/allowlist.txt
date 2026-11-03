@@ -1,0 +1,6 @@
+# Second approval gate. Add only bare domains you own or have written permission to assess.
+# Example (leave commented until you have permission):
+# approved-example.your-organisation.example
+#
+# Threat-feed and community-report leads in data/leads.csv MUST NOT be added merely
+# because they appear in the research dataset.

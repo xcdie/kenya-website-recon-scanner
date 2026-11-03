@@ -1,0 +1,3 @@
+comparison_id,domain,selection_basis,permission_reference,owner_contact_or_ticket,scan_authorized,notes
+CMP-001,,"Enter only a legitimate organisation/site deliberately selected by your team; do not invent targets.",,,no,"Requires written permission before a domain is entered, allowlisted, and scanned."
+CMP-002,,,,,no,"Blank template row."

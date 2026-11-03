@@ -1,0 +1,2 @@
+# Copy or rename this file to config/STOP to halt collection before the next action.
+# The runner checks for it at startup and before each target / network step.

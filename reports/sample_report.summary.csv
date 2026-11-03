@@ -1,0 +1,2 @@
+domain,collected_at_utc,http_head_status,hsts,csp,collection_error
+demo.authorized.example,2026-11-03T00:00:00+00:00,,, ,"Illustrative sample only; no network collection occurred."
