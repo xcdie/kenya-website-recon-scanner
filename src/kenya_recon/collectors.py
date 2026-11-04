@@ -290,6 +290,8 @@ def write_report(payload: dict[str, Any], output: Path) -> None:
                 "csp": head.get("security_header_presence", {}).get("Content-Security-Policy", ""),
                 "collection_error": item.get("error", ""),
             }
+
+            
         )
     with summary_path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=["domain", "collected_at_utc", "http_head_status", "hsts", "csp", "collection_error"])
