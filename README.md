@@ -4,6 +4,7 @@ This starter kit supports careful, defensible research on Kenya-related website 
 
 ## Safety and research rules
 
+
 - Every domain in `data/leads.csv` is an **unverified third-party report or historic research lead**. A threat-feed entry can describe a compromised site, shared-hosting artefact, stale record, or false positive. It is never proof of ownership, intent, criminality, or current malicious activity.
 - The default scan input contains no runnable target. Threat-feed leads are deliberately marked `scan_authorized=no` and are not allowlisted.
 - Only assess domains you own or have clear written permission to assess. Before the runner will make a request, a domain must be in both the input CSV with `scan_authorized=yes` and `config/allowlist.txt`; you must also provide the explicit command-line acknowledgement.
